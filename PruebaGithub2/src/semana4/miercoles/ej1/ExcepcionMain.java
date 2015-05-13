@@ -21,7 +21,9 @@ public class ExcepcionMain {
 		catch (IndexOutOfBoundsException e){
 			
 			System.out.println("Acceso a array fuera de margen");
+			//ejemplo con constructor(String)
 			//throw(new ExcepcionPrueba1("IndiceFueraDelimitesException"));
+			//ejemplo con constructor por defecto
 			throw(new ExcepcionPrueba1());
 			
 		}
