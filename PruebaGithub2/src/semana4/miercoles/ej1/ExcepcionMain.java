@@ -20,7 +20,7 @@ public class ExcepcionMain {
 		//Capturo la excepcion y luego propago la mia
 		catch (IndexOutOfBoundsException e){
 			
-			System.out.print("Acceso a array fuera de margen");
+			System.out.println("Acceso a array fuera de margen");
 			//throw(new ExcepcionPrueba1("IndiceFueraDelimitesException"));
 			throw(new ExcepcionPrueba1());
 			
